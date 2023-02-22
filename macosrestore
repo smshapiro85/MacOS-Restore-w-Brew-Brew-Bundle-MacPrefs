@@ -1,0 +1,30 @@
+printf "Prep complete... beginning the primary installs"
+# specify a directory to install
+cask_args appdir: '/Applications'
+# install packages
+# may not need this anymore since it is installed above
+tap "homebrew/cask"
+
+# 'brew install --cask'
+cask 'google-chrome'
+cask 'slack'
+cask 'notion'
+cask 'spotify'
+cask 'plexamp'
+cask 'microsoft-office'
+cask 'dropbox'
+cask 'bettertouchtool'
+cask 'bartender'
+cask 'itsycal'
+cask 'dropbox'
+cask 'vlc'
+
+# App Store
+mas "CotEditor", id: 1024640650
+mas "Tailscale", id: 1475387142
+mas "paste-clipboard-manager", id: 967805235
+mas "meeter-for-zoom-teams-co", id: 1510445899
+mas "moom", id: 419330170
+mas "apple-remote-desktop", id: 409907375
+mas "giphy-capture-the-gif-maker", id: 668208984
+mas "bitwarden", id: 1352778147
