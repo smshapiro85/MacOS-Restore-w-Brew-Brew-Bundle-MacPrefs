@@ -1,4 +1,4 @@
-# MacOS-Restore-w-Brew-Brew-Bundle-MacPrefs
+# MacOS Restore Using Brew, Brew Bundle & MacPrefs
 A script to restore a variety of preferences, app preferences, apps and app store apps, primarily using Brew and Brew Bundle.
 
 About: I've always loathed the MacOS restore process, so I compiled a script that restores a variety of functionality to MacOS. This is my personal script so you'll want to download it and modify it to your liking.
