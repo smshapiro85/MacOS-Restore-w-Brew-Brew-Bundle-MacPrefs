@@ -1,12 +1,12 @@
 # MacOS Restore Using Brew, Brew Bundle & MacPrefs
 
-Background: This is a script that I compiled from various sources to restores a variety of preferences, app preferences, apps and app store apps, primarily using Brew and Brew Bundle. This is my personal script so you'll want to download it and modify it to your liking.
+Background: This is a script that I compiled from various sources to restores a variety of preferences, app preferences, apps and app store apps, primarily using Brew and Brew Bundle. It is designed to be used upon reformatting a mac or receiving a new computer. This is my personal script so you'll want to download it and modify it to your liking.
 
 What this script does:
 
 1. Updates system preferences
 2. Installs Homebrew, Brew Bundle, Python, App Store MAS (for installing app store apps), and MacPrefs for restoring additional app preferences
-3. Runs a brew bundle to restore brew apps and app store apps
+3. Runs a brew bundle to restore brew apps and app store apps in a separate file
 4. Updates some one-off app preferences for Safari, Text Edit and the App Store
 5. Last manual step to install Python 2.7 specifically in order to allow usage of [macprefs](https://github.com/clintmod/macprefs)
 
